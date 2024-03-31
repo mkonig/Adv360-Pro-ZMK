@@ -19,8 +19,8 @@
 #include <dt-bindings/zmk/backlight.h>
 
 &mt {
-    tapping-term-ms = <300>;
-}
+    flavor = "tap-preferred";
+};
 
 / {
   behaviors {
